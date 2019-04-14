@@ -1,0 +1,61 @@
+<!-- Resume webpage includes skills, work history, education, professional summary-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CreateYourResume</title>
+</head>
+<body>
+	<header>
+		<img src="https://cdn2.iconfinder.com/data/icons/project-management-16/48/30-512.png" alt="image" height="150" width="150">
+		<h1>Resume Builder</h1>
+		<nav></nav>
+	</header>
+	
+	<hr>
+	<article>
+		<h2>Get hired now with Resume Builder!</h2>
+		<p>Use this app to create your next resume to get hired at your next job.</p>
+	</article>
+	<hr>
+	<section>
+	<for method="post">
+		First Name:<input type="text" name="firstname">
+		Last Name:<input type="text" name="lastname"><br>
+		Address:<input type="text" name="address"><br>
+		City:<input type="text" name="city">
+		State:<input type="text" name="state">
+		Zipcode:<input type="text" name="zipcode"><br>
+		Email:<input type="Email" name="email"><br>
+		Github:<input type="text" name="github"><br>
+		Job applying for:
+		<select>
+			<option value="Frontend">Frontend</option>
+			<option value="Backend">Backend</option>
+			<option value="Fullstack">Fullstack</option>
+			<option value="datascience">Data Scientist</option>
+		</select><br>
+		Formal Education (highest):		
+		<select>
+			<option value="Graduate School">Grad School</option>
+			<option value="Bachelors">Bachelors</option>
+			<option value="Associates">Associates</option>
+			<option value="High School">High School</option>
+			<option value="No formal">No Formal Education</option>
+		</select>
+		<br>
+		Programming Language Proficiency:
+		<input type="checkbox" name="HTML/CSS">html/css
+		<input type="checkbox" name="java">java
+		<input type="checkbox" name="jquery">jquery
+		<input type="checkbox" name="c#">c#
+		<input type="checkbox" name="scala">scala
+		<input type="checkbox" name="python">python<br>
+		Projects:<input type="text" name="workexperience">
+		<hr>
+		<input type="submit" name="add" value="Submit"></input>
+		<input type="button" name="reset" value="Reset"></input><br>
+	</form>
+	</section>
+	<footer>&copy; Copyright 2019</footer>
+		
+</html>
